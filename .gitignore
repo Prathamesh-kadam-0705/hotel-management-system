@@ -1,0 +1,19 @@
+﻿# Java and Maven
+**/target/
+*.class
+
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-secrets.properties
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# IDE files
+.metadata/
